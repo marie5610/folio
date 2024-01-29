@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background: #3D3B40;
+$text: #FEFCF3;
+
+body {
+  margin: 0;
+  background-color: $background;
+  color: $text;
+  font-family: 'Montserrat', sans-serif;
+}

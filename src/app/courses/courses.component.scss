@@ -1,0 +1,15 @@
+$primary: #8dcfb1;
+
+
+.diploma-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+
+  img {
+    margin-bottom: 2%;
+    width: 50%;
+    border-top: solid 3px $primary;
+    border-bottom: solid 3px $primary;
+  }
+}

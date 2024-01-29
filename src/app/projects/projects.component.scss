@@ -1,0 +1,26 @@
+$secondary: #A7ECEE;
+$accent: #5FBDFF;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  font-size: 18px;
+  div {
+    border-top: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+  }
+  img {
+    margin-bottom: 2%;
+    width: 75%;
+    place-items: center;
+  }
+  .tinier {
+    width: 30%;
+    place-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: $accent;
+  }
+}

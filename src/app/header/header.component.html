@@ -1,0 +1,23 @@
+<header class="header">
+  <div class="menu-container">
+    <div class="burger-icon" (click)="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="menu-items" [ngClass]="{ active: isMenuOpen }">
+      <a href="javascript:void(0);" (click)="downloadFile()"
+        >Download my resume</a
+      >
+      <a
+        href="https://wa.me/595972546594/?text=Hello, feel free to ask whatever you want..."
+        >Chat with me on WhatsApp</a
+      >
+      <a href="https://github.com/marie5610?tab=repositories">GitHub</a>
+    </div>
+  </div>
+
+  <button class="header-btn" title="Marie Bunny Dev Home" routerLink="/home" routerLinkActive="active">
+    <img [src]="bunny" />
+  </button>
+</header>
